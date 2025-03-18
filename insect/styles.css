@@ -15,7 +15,7 @@ body {
     animation: moveLegs 0.2s infinite alternate;
   }
   
-  /* Legs */
+ 
   #cockroach::before,
   #cockroach::after {
     content: '';
