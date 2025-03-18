@@ -3,7 +3,7 @@ const cockroach = document.getElementById('cockroach');
 let mouseX = window.innerWidth / 2;
 let mouseY = window.innerHeight / 2;
 
-// Update mouse position
+
 document.addEventListener('mousemove', (e) => {
   mouseX = e.clientX;
   mouseY = e.clientY;
