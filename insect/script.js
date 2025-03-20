@@ -9,7 +9,7 @@ document.addEventListener('mousemove', (e) => {
   mouseY = e.clientY;
 });
 
-// Smooth movement function
+
 function moveCockroach() {
   const cockroachRect = cockroach.getBoundingClientRect();
   const cockroachX = cockroachRect.left + cockroachRect.width / 2;
@@ -19,7 +19,7 @@ function moveCockroach() {
   const angle = Math.atan2(mouseY - cockroachY, mouseX - cockroachX);
 
   // Move the cockroach towards the mouse
-  const speed = 3; // Adjust speed as needed
+  const speed = 3; 
   const newX = cockroachX + Math.cos(angle) * speed;
   const newY = cockroachY + Math.sin(angle) * speed;
 
