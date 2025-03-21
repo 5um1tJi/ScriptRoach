@@ -18,8 +18,8 @@ function moveCockroach() {
   // Calculate the angle between the cockroach and the mouse
   const angle = Math.atan2(mouseY - cockroachY, mouseX - cockroachX);
 
-  // Move the cockroach towards the mouse
-  const speed = 3; 
+  // Move the cockroach 
+  const speed = 4;
   const newX = cockroachX + Math.cos(angle) * speed;
   const newY = cockroachY + Math.sin(angle) * speed;
 
